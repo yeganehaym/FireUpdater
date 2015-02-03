@@ -1,0 +1,44 @@
+{
+  "name": "fireupdater",
+  "title": ".net Tips Updater (Fire Updater)",
+  "id": "jid1-QfyqpNby9lTlcQ",
+  "description": "This extension keeps you updated on current activities on dotnettips.info",
+  "author": "yeganehaym@gmail.com",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+    "description": "مطالب سایت",
+    "type": "bool",
+    "name": "post",
+    "value": true,
+    "title": "مطالب سایت"
+},
+{
+    "description": "نظرات مطالب سایت",
+    "type": "bool",
+    "name": "postcomments",
+    "value": false,
+    "title": "نظرات مطالب سایت"
+},
+{
+    "description": "اشتراک ها",
+    "type": "bool",
+    "name": "shares",
+    "value": false,
+    "title": "اشتراک ها"
+},
+{
+    "description": "نظرات اشتراک ها",
+    "type": "bool",
+    "name": "sharescomments",
+    "value": false,
+    "title": "نظرات اشتراک ها"
+},
+    {
+        "description": "دوره زمان برای بررسی سایت",
+        "name": "myinterval",
+        "type": "integer",
+        "value": 10,
+        "title": "دوره زمانی"
+    }]
+}
